@@ -1,0 +1,29 @@
+metricas:
+  ventas_netas:
+    hoja: FINANZAS
+    valor: MONTO NETO
+    op: sum
+    dims_permitidas:
+    - CLIENTE
+    - PROCESO
+    - ESTADO SERVICIO
+    - MARCA
+    - MODELO
+    - MES
+    - AÑO
+  ot:
+    hoja: MODELO_BOT
+    valor: OT
+    op: count
+  ot_sin_facturar:
+    tipo: custom
+    funcion: ot_sin_facturar
+  facturas_no_pagadas:
+    tipo: custom
+    funcion: facturas_no_pagadas
+  cxc_aging:
+    tipo: custom
+    funcion: cxc_aging
+  lead_time_prom:
+    tipo: custom
+    funcion: lead_time_prom

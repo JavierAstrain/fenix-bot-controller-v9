@@ -1,0 +1,7 @@
+streamlit==1.37.1
+pandas==2.2.2
+numpy==1.26.4
+gspread==6.1.2
+google-auth==2.33.0
+pyyaml==6.0.2
+openai==1.40.3
